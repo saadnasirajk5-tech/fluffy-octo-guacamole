@@ -1,0 +1,15 @@
+Lab — Support-ticket classifier
+Problem: A support team needs to route incoming tickets to one of several queues.
+Find or create a properly licensed, non-sensitive dataset.
+Define label classes and remove unusable rows.
+Produce a simple baseline such as majority class or TF-IDF plus a linear model.
+Split data before performing any label-dependent preprocessing to avoid leakage.
+Train at least two models; record configuration and metrics.
+Inspect misclassified examples; identify ambiguous labels and class imbalance.
+Choose a metric that matches the operational goal.
+Save the pipeline and expose a prediction interface.
+Document known failure cases and what additional data would improve it.
+Add tests that cover bad input, empty input, unknown labels, and model loading failure.
+Required deliverables: source code, dataset source/license note, reproducible command, test suite, metric table, error analysis, and a short model card.
+Pass condition: Another person can clone the repo, set up the environment, rerun the experiment, and understand why your chosen model is acceptable or unacceptable. A high score without leakage checks and error analysis is a fail.
+Resources: scikit-learn Getting Started and its model evaluation guide.

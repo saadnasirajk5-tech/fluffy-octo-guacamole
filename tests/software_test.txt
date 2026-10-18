@@ -1,0 +1,8 @@
+
+Practice projects
+Project A — Reliable API client. Build a client for a public API. It must handle timeouts, rate limits, invalid responses, retryable versus non-retryable errors, and structured output. Mock the server in tests so you can prove the behavior without relying on the internet.
+Project B — Task tracker API. Build a small FastAPI service with create/list/update operations and a SQL database. Add validation, database constraints, tests, useful error responses, and a migration strategy. Do not add AI yet.
+Project C — Log analyzer. Parse application logs, aggregate errors, output JSON/CSV summaries, and add tests for malformed lines and missing values.
+Exit gate
+You can take a small requirement, split it into functions and tests, write a meaningful commit, review your own diff, explain your dependencies, and diagnose a failure through logs and stack traces. You know what should be tested at unit versus integration level.
+Resources: FastAPI tutorial, PostgreSQL tutorial, Docker getting started, and pytest docs.

@@ -1,0 +1,3 @@
+Lab — Inference service
+Wrap your support-ticket model in a FastAPI service with a /health endpoint and a /predict endpoint. Validate input length and fields; return a stable response schema; fail clearly if the model artifact is missing; log request metadata without logging sensitive content; write tests against the API; build a Docker image; and document how to start it locally.
+Pass condition: A reviewer can clone the repository, run tests, build the image, start the service, call the endpoint with valid and invalid payloads, and understand the limitations. “Works on my notebook” is not a pass.

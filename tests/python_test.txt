@@ -1,0 +1,10 @@
+Count word frequencies in a text file; normalize casing and punctuation.
+Parse a JSON file; handle a missing key, malformed JSON, and empty file.
+Merge two lists of records by identifier; identify duplicates and conflicting values.
+Read a CSV and report missing values, invalid rows, and summary statistics.
+Implement pagination over a list and test empty/out-of-range pages.
+Build a command-line expense summarizer with date filters.
+Write a retry function with a maximum attempt count and a clear failure outcome.
+Convert nested dictionaries into validated data objects.
+Implement a simple cache and explain its invalidation behavior.
+Read a log file and summarize error frequency by type.
